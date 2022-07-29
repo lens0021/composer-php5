@@ -18,3 +18,4 @@ jobs:
       - uses: docker/build-push-action@v3
         with:
           tags: ghcr.io/lens0021/composer2.2-php5:latest
+          push: true
